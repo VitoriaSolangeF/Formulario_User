@@ -12,11 +12,20 @@ function App() {
               <img src={devia} alt='logohs'/>
             </span>
 
-            <div className='wrap-input'>
-              <input type='email' />
-              <span className='focus-input'>
-              </span>
+            <div className="wrap-input">
+              <input type="email" />
+              <span className="focus-input" data-placeholder="Email"></span>
             </div>
+
+            <div className="wrap-input">
+              <input type="password" />
+              <span className="focus-input" data-placeholder="Password"></span>
+            </div>
+
+            <div className="container-login-form-btn">
+              <button className="login-form-btn">Login</button>
+            </div>
+
           </form>
         </div>
       </div>
