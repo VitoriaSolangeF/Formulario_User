@@ -1,4 +1,5 @@
 import devia from './assets/devia.png';
+import './styles.css'
 
 function App() {
   return (
@@ -26,6 +27,11 @@ function App() {
               <button className="login-form-btn">Login</button>
             </div>
 
+            <div className="text-center">
+              <span className="txt1">Não possui conta?</span>
+
+              <a className="txt2" href="#">Criar conta.</a>
+            </div>
           </form>
         </div>
       </div>
