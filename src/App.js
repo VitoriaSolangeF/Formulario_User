@@ -1,4 +1,4 @@
-import logohs from './assets/logohs.png';
+import devia from './assets/devia.png';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
             <span className="login-form-title">Bem vindo</span>
 
             <span className="login-form-title">
-              <img src={logohs} alt='logohs'/>
+              <img src={devia} alt='logohs'/>
             </span>
 
             <div className='wrap-input'>
